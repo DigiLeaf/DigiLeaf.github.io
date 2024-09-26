@@ -1,0 +1,45 @@
+
+html{
+
+}
+
+
+body{
+    margin:0;
+    padding-top:70px;
+}
+
+header{
+    position:fixed;
+    display:flex;
+    height:70px;
+    border-bottom: 1px solid #fa4103;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 10;
+    top:0;
+
+    background-color:   #03e2bd;
+    
+}
+/*  #03e2bd teal background color used for header and accents 
+#fa4103 previous color's complementary color*/
+
+ul {
+    list-style: none;
+    float: right;
+    display:inline-flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin:10px;
+}
+
+li {
+    display: inline;
+    padding: 1rem;
+}
+
+#project-button {
+    border-left: 1px solid #fa4103;
+    border-right: 1px solid #fa4103;
+}
