@@ -1,12 +1,13 @@
 
 html{
-
+    background-color: #03e2bd;
 }
 
 
 body{
     margin:0;
     padding-top:70px;
+    display:block;
 }
 
 header{
@@ -42,4 +43,28 @@ li {
 #project-button {
     border-left: 1px solid #fa4103;
     border-right: 1px solid #fa4103;
+}
+
+.about {
+    display: flex;
+    margin: 0 auto;
+    height:850px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #fa4103 ;
+}
+
+.about img{
+    height: 750px;
+    width:500px;
+    margin: 0 auto;
+    padding-top: 50px;
+    flex-shrink: 1.5;
+}
+
+.about-me {
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+    align-self:center;
 }
