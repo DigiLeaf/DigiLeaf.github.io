@@ -17,7 +17,6 @@ body{
     display:block;
     background-color: #557373;
     overflow:auto;
-
 }
 
 header{
@@ -29,9 +28,7 @@ header{
     justify-content: space-between;
     z-index: 10;
     top:0;
-
-    background-color:   #dfe5f3;
-    
+    background-color:   #dfe5f3;   
 }
 
 h1{
@@ -42,10 +39,6 @@ header h1{
     margin: 0.5em;
     font-size: 2rem;
 }
-
-
-/*  #03e2bd teal background color used for header and accents 
-#fa4103 previous color's complementary color*/
 
 ul {
     list-style: none;
@@ -79,19 +72,16 @@ li a{
     justify-content: space-around;
     flex-wrap: wrap;
     border-bottom: 1px solid #0d0d0d;
-    color:#f2efea
-
+    color:#f2efea;
 }
 
 .about img{
-    
     height: 750px;
     width:500px;
     margin: 0 auto;
     padding-top: 25px;
     padding-bottom: 25px;
     flex-shrink: 1.5;
-
 }
 
 .about-me {
@@ -104,12 +94,12 @@ li a{
 .projects{
     width:auto;
     margin:0 auto;
+    flex-wrap: wrap;
     border-bottom: 1px solid #0d0d0d;
     background-color: #dfe5f3;
     padding-top: 21px;
+    padding-bottom: 21px;
     z-index: 2;
-
-
 }
 
 .project-box{
@@ -131,30 +121,15 @@ li a{
     height: 300px;
 }
 
-.ml-project {
+.myProject {
     width: 350px;
     height:auto;
     display:flex;
     flex-direction: column;
     align-items: center;
-
+    padding-top: 1em;
 }
 
-.cli-eshop{
-    width: 350px;
-    height:auto;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.SNS{
-    width: 350px;
-    height:auto;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .contact{
     color: #f2efea;
