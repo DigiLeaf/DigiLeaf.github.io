@@ -1,28 +1,49 @@
 
-html{
-    background-color: #03e2bd;
-}
+/* color palette
+#dfe5f3 Header (light purple) projects section
+#557373 (tealish color about)
+#272401 (dark green)
+#f2efea (almost white)
+#0d0d0d (black shade)
 
+*/
+html{
+    font-family: "nunito", sans-serif;
+}
 
 body{
     margin:0;
     padding-top:70px;
     display:block;
+    background-color: #557373;
+    overflow:auto;
+
 }
 
 header{
     position:fixed;
     display:flex;
     height:70px;
-    border-bottom: 1px solid #fa4103;
+    border-bottom: 1px solid #0d0d0d;
     width: 100%;
     justify-content: space-between;
     z-index: 10;
     top:0;
 
-    background-color:   #03e2bd;
+    background-color:   #dfe5f3;
     
 }
+
+h1{
+    font-size: 2.5rem;
+}
+
+header h1{
+    margin: 0.5em;
+    font-size: 2rem;
+}
+
+
 /*  #03e2bd teal background color used for header and accents 
 #fa4103 previous color's complementary color*/
 
@@ -40,18 +61,26 @@ li {
     padding: 1rem;
 }
 
+li a{
+    padding:1rem;
+    text-decoration:none;
+    color:#0d0d0d;
+}
+
 #project-button {
-    border-left: 1px solid #fa4103;
-    border-right: 1px solid #fa4103;
+    border-left: 1px solid #0d0d0d;
+    border-right: 1px solid #0d0d0d;
 }
 
 .about {
     display: flex;
     margin: 0 auto;
-    height:auto;
+    height:0 auto;
     justify-content: space-around;
     flex-wrap: wrap;
-    border-bottom: 1px solid #fa4103 ;
+    border-bottom: 1px solid #0d0d0d;
+    color:#f2efea
+
 }
 
 .about img{
@@ -75,11 +104,14 @@ li {
 .projects{
     width:auto;
     margin:0 auto;
-    border-bottom: 1px solid #fa4103 ;
-    
+    border-bottom: 1px solid #0d0d0d;
+    background-color: #dfe5f3;
+    padding-top: 21px;
+    z-index: 2;
 
 
 }
+
 .project-box{
     display: flex;
     flex-wrap: wrap;
@@ -90,12 +122,14 @@ li {
 .projects h1, .projects p{
     text-align: center;
 }
+.projects h3 {
+    font-size: 1.10em;
+}
+
 .project-box img{
     width: 300px;
     height: 300px;
 }
-
-
 
 .ml-project {
     width: 350px;
@@ -121,6 +155,10 @@ li {
     flex-direction: column;
     align-items: center;
 }
+
+.contact{
+    color: #f2efea;
+}
 .contact-me {
     height:auto;
     display:flex;
@@ -130,7 +168,6 @@ li {
 .contact h1{
     text-align: center;
 }
-
 
 .contact img {
     height:50px;
