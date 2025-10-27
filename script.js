@@ -6,6 +6,7 @@ const snsProject = document.getElementById("sns-project");
 
 function projectOnHover(project){
     project.target.style.backgroundColor = "#557373";
+    project.target.style.borderradius = "25 px";
 }
 
 function projectOnHoverOut(project){
